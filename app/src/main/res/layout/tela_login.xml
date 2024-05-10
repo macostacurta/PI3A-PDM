@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="563dp" />
+        app:layout_constraintGuide_percent="0.23255815" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="409dp"
@@ -40,7 +40,7 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress2"
+                android:id="@+id/te_Login_Email"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="165dp"
@@ -52,7 +52,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPassword2"
+                android:id="@+id/te_Login_Senha"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -61,21 +61,22 @@
                 android:inputType="textPassword"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+                app:layout_constraintTop_toBottomOf="@+id/te_Login_Email" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn_Login_Entrar"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/black"
                 android:gravity="center"
+                android:onClick="CarregarTelaPrincipal"
                 android:text="@string/butao_entrar"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+                app:layout_constraintTop_toBottomOf="@+id/te_Login_Senha" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

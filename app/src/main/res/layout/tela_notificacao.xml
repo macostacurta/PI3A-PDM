@@ -24,12 +24,12 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="25dp"
         android:background="#ACACAC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
         android:id="@+id/textView5"
@@ -87,6 +87,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="52dp"
         android:backgroundTint="@color/white"
+        android:onClick="CarregarTelaPrincipal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_arrow_back_24" />
@@ -131,7 +132,7 @@
         android:background="#040404"
         android:backgroundTint="#000000"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="203dp" />
+        app:layout_constraintGuide_percent="0.28" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -158,13 +159,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="104dp" />
+        app:layout_constraintGuide_percent="0.15" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="151dp" />
+        app:layout_constraintGuide_percent="0.21" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

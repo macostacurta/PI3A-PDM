@@ -12,7 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.17783858" />
+        app:layout_constraintGuide_percent="0.15" />
+        a
 
     <TextView
         android:id="@+id/textView16"
@@ -170,6 +171,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="90dp"
                 android:backgroundTint="#C6C5C5"
+                android:onClick="CarregarTelaPrincipal"
                 android:text="Voltar"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
